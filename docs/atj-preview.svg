@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="#0b1220"/>
+  <rect x="40" y="40" width="1200" height="80" rx="16" fill="#0c1424" stroke="#1e2a44"/>
+  <g font-family="Space Grotesk" filter="url(#shadow)">
+    <text x="80" y="92" font-size="32" fill="#dbe7f3">Alok Trading Journal</text>
+    <text x="560" y="92" font-size="16" fill="#8aa5c0">Discipline • Consistency • Funding Focus</text>
+  </g>
+  <rect x="40" y="140" width="600" height="520" rx="16" fill="#121a2b" stroke="#1e2a44"/>
+  <text x="64" y="176" font-family="Inter" font-size="20" fill="#dbe7f3">Equity curve</text>
+  <rect x="64" y="196" width="552" height="420" rx="8" fill="#0e1628" stroke="#1e2a44"/>
+  <path d="M80 600 C 150 520, 220 560, 280 500 C 340 460, 410 480, 480 420 C 540 380, 590 420, 640 360" fill="none" stroke="url(#g)" stroke-width="4"/>
+  <rect x="660" y="140" width="580" height="520" rx="16" fill="#121a2b" stroke="#1e2a44"/>
+  <text x="684" y="176" font-family="Inter" font-size="20" fill="#dbe7f3">Dashboard</text>
+  <g font-family="Inter" font-size="16" fill="#8aa5c0">
+    <text x="684" y="214">Win rate</text>
+    <text x="864" y="214">Total trades</text>
+    <text x="1064" y="214">P/L</text>
+  </g>
+  <g font-family="Inter" font-size="28" font-weight="600">
+    <text x="684" y="244" fill="#dbe7f3">62%</text>
+    <text x="864" y="244" fill="#dbe7f3">48</text>
+    <text x="1064" y="244" fill="#22c55e">$1,245</text>
+  </g>
+  <rect x="684" y="280" width="530" height="60" rx="10" fill="#0e1628" stroke="#1e2a44"/>
+  <text x="704" y="318" font-family="Inter" font-size="16" fill="#dbe7f3">Quick actions: Add Trade • Add Journal Note • Review Rules</text>
+  <image href="../public/logo.svg" x="1160" y="40" width="60" height="60"/>
+</svg>
+
